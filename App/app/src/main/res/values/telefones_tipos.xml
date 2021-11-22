@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="telefones_tipos_array">
+        <item>Fixo</item>
+    </string-array>
+</resources>

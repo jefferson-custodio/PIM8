@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="113dp"
+        android:background="#eeeeee"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="334dp"
+            android:layout_height="63dp"
+            android:layout_margin="20px"
+            android:layout_weight="1"
+            android:text="PIM8"
+            android:textColor="#222222"
+            app:autoSizeMaxTextSize="180px"
+            app:autoSizeMinTextSize="100px"
+            app:autoSizeTextType="uniform" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginBottom="10px"
+            android:layout_weight="1"
+            android:text="Escolha uma opção"
+            android:textColor="#222222" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="615dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="30dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="115dp">
+
+        <Button
+            android:id="@+id/button_tel_tipo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefones Tipos" />
+
+        <Button
+            android:id="@+id/button_tel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefones" />
+
+        <Button
+            android:id="@+id/button_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Endereços" />
+
+        <Button
+            android:id="@+id/button_people"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pessoas" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
